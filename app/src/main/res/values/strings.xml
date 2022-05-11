@@ -1,0 +1,451 @@
+<resources>
+    <string name="app_name">GuideApp</string>
+    <string name="gumbaza">
+        Service options: Dine-in · Takeaway
+Address: Q973+P39, Andijan, Uzbekistan
+Hours:
+Wednesday	7AM–10PM
+Thursday	7AM–10PM
+Friday	7AM–10PM
+Saturday	7AM–10PM
+Sunday	7AM–10PM
+Monday	7AM–10PM
+Tuesday	7AM–10PM
+    </string>
+    <string name="le_verando">
+        Service options: Dine-in
+Address: Q9H3+X3H, Andijan, Uzbekistan
+Hours:
+Wednesday	8AM–11PM
+Thursday	8AM–11PM
+Friday	8AM–11PM
+Saturday	8AM–11PM
+Sunday	2–11PM
+Monday	8AM–11PM
+Tuesday	8AM–11PM
+        Phone: +998 74 223 24 24
+    </string>
+    <string name="gulshan">
+        Service options: Dine-in · Takeaway
+Address: P8C9+HCP, Andijan, Uzbekistan
+        open: everyday 10:am to 10pm
+        make party: available
+        dancing inside: available
+    </string>
+    <string name="ozbekistan">
+        Service options: Dine-in · Takeaway
+Address: P9X4+99M, Andijan, Uzbekistan
+Hours:
+Wednesday	Open 24 hours
+Thursday	Open 24 hours
+Friday	Open 24 hours
+Saturday	Open 24 hours
+Sunday	Open 24 hours
+Monday	Open 24 hours
+Tuesday	Open 24 hours
+    </string>
+    <string name="bukhara">
+        Service options: Dine-in · Takeaway
+Address: Kokill Kalon Str 5, Bukhara, Uzbekistan
+Hours:
+Thursday	11AM–11PM
+Friday	11AM–11PM
+Saturday	11AM–11PM
+Sunday	11AM–11PM
+Monday	11AM–11PM
+Tuesday	11AM–11PM
+Wednesday	11AM–11PM
+Phone: +998 91 445 27 55
+    </string>
+    <string name="ugur">
+        Service options: Dine-in · Takeaway · No delivery
+Address: QFH4+399, Bukhara, Uzbekistan
+Hours:
+Thursday	10AM–11PM
+Friday	10AM–11PM
+Saturday	10AM–11PM
+Sunday	10AM–11PM
+Monday	10AM–11PM
+Tuesday	10AM–11PM
+Wednesday	10AM–11PM
+
+
+    </string>
+    <string name="chashma">
+        Service options: Takeaway
+Address: QC8H+F99, Bukhara, Uzbekistan
+Hours:
+Thursday	Open 24 hours
+Friday	Open 24 hours
+Saturday	Open 24 hours
+Sunday	Open 24 hours
+Monday	Open 24 hours
+Tuesday	Open 24 hours
+Wednesday	Open 24 hours
+    </string>
+    <string name="chinar">
+        Service options: Dine-in · Takeaway
+Address: Mekhtar Anbar St, Bukhara, Uzbekistan
+Hours:
+Thursday	11AM–11PM
+Friday	11AM–11PM
+Saturday	11AM–11PM
+Sunday	11AM–11PM
+Monday	11AM–11PM
+Tuesday	11AM–11PM
+Wednesday	11AM–11PM
+        Phone: +998 90 299 95 64
+
+    </string>
+    <string name="bella">
+        Service options: Dine-in · Takeaway · Delivery
+Address: Bukhara, Uzbekistan
+Hours:
+Thursday	11AM–11PM
+Friday	11AM–11PM
+Saturday	11AM–11PM
+Sunday	12–11PM
+Monday	11AM–11PM
+Tuesday	11AM–11PM
+Wednesday	11AM–11PM
+
+    </string>
+    <string name="Jizzakh">
+        Service options: Dine-in · Takeaway
+Address: R-36, Jizzakh, Uzbekistan
+Hours:
+Thursday	9AM–12AM
+Friday	9AM–12AM
+Saturday	9AM–12AM
+Sunday	9AM–12AM
+Monday	9AM–12AM
+Tuesday	9AM–12AM
+Wednesday	9AM–12AM
+
+        Phone: +998 94 911 10 50
+
+
+
+
+
+    </string>
+    <string name="namangan">
+        Service options: Dine-in · Takeaway · Delivery
+Address: Dustlik Avenue, Namangan, Uzbekistan
+Hours:
+Tuesday	10AM–11:30PM
+Wednesday	10AM–11:30PM
+Thursday	10AM–11:30PM
+Friday	10AM–11:30PM
+Saturday	10AM–11:30PM
+Sunday	10AM–11:30PM
+Monday	10AM–11:30PM
+Suggest new hours
+
+
+
+Phone: +998 95 300 48 44
+    </string>
+    <string name="rim_res">
+        Service options: Dine-in · Takeaway
+Address: Наманган, 4-й микрорайон, ул. Галаба 30, Namangan 160116, Uzbekistan
+Hours:
+Tuesday	11AM–12AM
+Wednesday	11AM–12AM
+Thursday	11AM–12AM
+Friday	11AM–12AM
+Saturday	11AM–12AM
+Sunday	11AM–12AM
+Monday	11AM–12AM
+Suggest new hours
+
+
+
+Phone: +998 95 308 30 30
+
+    </string>
+    <string name="sherdor">
+        Service options: Dine-in
+Address: XMQQ+FW4, Namangan, Uzbekistan
+Hours:
+Wednesday	4AM–11PM
+Thursday	4AM–11PM
+Friday	4AM–11PM
+Saturday	4AM–11PM
+Sunday	4AM–11PM
+Monday	4AM–11PM
+Tuesday	4AM–11PM
+Suggest new hours
+
+
+
+Phone: +998 99 975 00 02
+    </string>
+    <string name="shodiyona">
+        Service options: Dine-in · Takeaway
+Address: 2M22+8QF, Namangan, Uzbekistan
+Hours:
+Wednesday	9AM–11PM
+Thursday	9AM–11PM
+Friday	9AM–11PM
+Saturday	9AM–11PM
+Sunday	9AM–11PM
+Monday	9AM–11PM
+Tuesday	9AM–11PM
+Suggest new hours
+    </string>
+    <string name="zamin">
+        Service options: Dine-in · Curbside pickup · No-contact delivery
+Address: ул. Истиклол, дом 25, Namangan 160100, Uzbekistan
+Hours:
+Wednesday	10AM–10PM
+Thursday	10AM–10PM
+Friday	10AM–10PM
+Saturday	10AM–10PM
+Sunday	10AM–10PM
+Monday	10AM–10PM
+Tuesday	10AM–10PM
+    </string>
+    <string name="osiyo">
+        Service options: Dine-in · Takeaway
+Address: 4RPF+QWQ, Jizzakh, Uzbekistan
+Hours:
+Wednesday	9AM–11PM
+Thursday	9AM–11PM
+Friday	9AM–11PM
+Saturday	9AM–11PM
+Sunday	9AM–11PM
+Monday	9AM–11PM
+Tuesday	9AM–11PM
+Suggest new hours
+
+
+
+Phone: +998 90 296 79 66
+
+
+    </string>
+    <string name="swan0">
+        Service options: Dine-in · Takeaway
+Address: Город Джиззак, улица Ташкентский 63, Uzbekistan
+Hours:
+Wednesday	Open 24 hours
+Thursday	Open 24 hours
+Friday	Open 24 hours
+Saturday	Open 24 hours
+Sunday	Open 24 hours
+Monday	Open 24 hours
+Tuesday	Open 24 hours
+Suggest new hours
+
+
+
+Phone: +998 91 598 69 09
+    </string>
+    <string name="pandora">
+        Service options: Dine-in · Takeaway
+Address: R-37, Jizzakh, Uzbekistan
+Hours:
+Wednesday	11AM–3AM
+Thursday	11AM–3AM
+Friday	11AM–3AM
+Saturday	11AM–3AM
+Sunday	11AM–3AM
+Monday	11AM–3AM
+Tuesday	11AM–3AM
+Suggest new hours
+
+
+
+Phone: +998 99 240 70 01
+    </string>
+    <string name="pub1">
+        Service options: Dine-in · Takeaway · Delivery
+    Address: 14а ул. Айбека, Ferghana 150100, Uzbekistan
+         Hours:
+        Tuesday	11AM–11PM
+        Wednesday	11AM–11PM
+        Thursday	11AM–11PM
+        Friday	11AM–11PM
+Saturday	11AM–11PM
+Sunday	11AM–11PM
+Monday	11AM–11PM
+
+    </string>
+    <string name="scandina">
+        Service options: Dine-in · Takeaway
+Address: 9Q8M+WRF, Fergana, Uzbekistan
+Hours:
+Tuesday	10AM–11PM
+Wednesday	10AM–11PM
+Thursday	10AM–11PM
+Friday	10AM–11PM
+Saturday	10AM–11PM
+Sunday	10AM–11PM
+Monday	10AM–11PM
+Suggest new hours
+
+
+
+Phone: +998 73 226 08 80
+    </string>
+    <string name="loft">
+        Service options: Dine-in · Takeaway
+Address: 11a Komus Street, Fergana, Uzbekistan
+Hours:
+Tuesday	11AM–11PM
+Wednesday	11AM–11PM
+Thursday	11AM–11PM
+Friday	11AM–11PM
+Saturday	11AM–11PM
+Sunday	11AM–11PM
+Monday	11AM–11PM
+Suggest new hours
+
+
+
+Phone: +998 99 601 99 00
+
+    </string>
+    <string name="osh">
+        Service options: Dine-in · Takeaway
+Address: 9QCV+M3P, Fergana, Uzbekistan
+Hours:
+Tuesday	7AM–2PM
+Wednesday	7AM–2PM
+Thursday	7AM–2PM
+Friday	7AM–2PM
+Saturday	7AM–2PM
+Sunday	7AM–2PM
+Monday	7AM–2PM
+Updated by this business 6 weeks ago
+Suggest new hours
+
+
+
+Phone: +998 93 649 99 97
+    </string>
+    <string name="chaykhana">
+        Service options: Dine-in · Takeaway
+Address: 9Q68+M24, Fergana, Uzbekistan
+Hours:
+Tuesday	8AM–11PM
+Wednesday	8AM–11PM
+Thursday	8AM–11PM
+Friday	8AM–11PM
+Saturday	8AM–11PM
+Sunday	8AM–11PM
+Monday	8AM–11PM
+Suggest new hours
+
+
+
+Phone: +998 33 405 10 00
+    </string>
+    <string name="tash">
+        Service options: Dine-in · Takeaway · Delivery
+Address: 23 Shakhrisabz Street, Tashkent 100015, Uzbekistan
+Hours:
+Tuesday	12PM–12AM
+Wednesday	12PM–12AM
+Thursday	12PM–12AM
+Friday	12PM–12AM
+Saturday	12PM–12AM
+Sunday	12PM–12AM
+Monday	12PM–12AM
+Suggest new hours
+
+
+
+Phone: +998 71 233 49 72
+    </string>
+    <string name="city_grill_menu">
+        ABOUT
+Restaurant City Grill - steakhouse located in the center of Tashkent, meets the general principle of the network- delicious cuisine and high quality of service.The restaurant is decorated in sufficient strict and at the same time comfortable style of City Grill. In the restaurant there is a bar, a hall for smokers and a hall for non-smokers. As well as in the restaurant there are 2 children\'s entertainment rooms. City Grill is an ideal place for business meetings, family dinners with children, as well as for romantic couples, who have decided to spend an evening in a cosy atmosphere. There is a summer terrace and large free parking.As always, City Grill restaurant will please You with a wide choice of local and imported wines and desserts of own cooking. Regardless of the restaurant that is part of is already in City Grill, our guests will be satisfied with the quality of dishes and service.
+CUISINES
+Steakhouse European, Central European
+SPECIAL DIETS
+Vegetarian Friendly
+MEALS
+Lunch, Dinner, Late Night, Drinks
+FEATURES
+Reservations, Seating, Serves Alcohol, Full Bar, Table Service, Highchairs Available
+    </string>
+    <string name="afsona">
+        Service options: Dine-in · Curbside pickup · Delivery
+Address: 28 Taras Shevchenko Street, Tashkent, Uzbekistan
+Hours:
+Wednesday	11AM–11PM
+Thursday	11AM–11PM
+Friday	11AM–11PM
+Saturday	11AM–11PM
+Sunday	11AM–11PM
+Monday	11AM–11PM
+Tuesday	11AM–11PM
+Suggest new hours
+    </string>
+    <string name="Gruzin">
+        Service options: Dine-in · Takeaway · Delivery
+Address: 15 Abdulla Kahhar Street, Tashkent, Uzbekistan
+Hours:
+Friday	12PM–2AM
+Saturday	12PM–2AM
+Sunday	12PM–2AM
+Monday	12PM–2AM
+Tuesday	12PM–2AM
+Wednesday	12PM–2AM
+Thursday	12PM–2AM
+Suggest new hours
+
+
+
+Phone: +998 90 945 00 08
+    </string>
+    <string name="efendi">
+        Service options: Dine-in · Takeaway · No-contact delivery
+Address: 79а Sadik Azimov Street, Tashkent 100060, Uzbekistan
+Hours: 
+Friday	7AM–10PM
+Saturday	7AM–10PM
+Sunday	7AM–10PM
+Monday	7AM–10PM
+Tuesday	7AM–10PM
+Wednesday	7AM–10PM
+Thursday	7AM–10PM
+Suggest new hours
+
+
+
+Phone: +998 71 233 15 0
+    </string>
+
+    <string name="lorem">
+        About this hotel
+In a striking, high-rise building opposite the expansive Amir Timur Square, this down-to-earth hotel is a 3-minute walk from the nearest metro station. It\'s 6 km from Chorsu Bazaar in the city\'s old town.
+Unpretentious rooms offer Wi-Fi, flat-screen TVs and minifridges. Suites add separate living rooms. Upgraded suites add private offices. Room service is available 24 hours.
+
+Breakfast is served in 1 of the hotel\'s 2 restaurants. There\'s also a 24-hour cafe, a gym and a beauty salon. Massage services and an area shuttle are available.
+
+Check-in time: 14:00
+Check-out time: 12:00
+
+    </string>
+    <string name="regency">About this hotel
+Near a park in a leafy area, this upscale hotel is a 9-minute walk from a metro station, and a 15-minute walk from the State Museum of History of Uzbekistan.
+Bright, refined rooms with Internet access offer flat-screen TVs, minibars, and tea and coffeemakers. Upgraded rooms have terraces and/or floor-to-ceiling windows. Club level rooms feature access to a private lounge. Suites add kitchenettes and separate living rooms. Room service is available 24/7.
+
+There’s a bright, stylish restaurant, plus a cafe/bar, and an Italian eatery with a bar. Other amenities include an indoor pool, a spa and a 24-hour gym.
+
+Check-in time: 14:00
+Check-out time: 12:00</string>
+    <string name="hilton">About this hotel
+Across the road from Tashkent City Park, this sleek hotel is 4 km from souvenir shopping at Chorsu Bazaar and a 9-minute walk from the nearest metro station.
+Polished rooms feature free Wi-Fi, flat-screen TVs, safes and designer toiletries. Upgraded rooms offer access to a private lounge providing food and drinks. The 1-bedroom suites add kitchenettes, living room, whirlpool tubs and/or city views. Limited room service is offered.
+
+Parking is complimentary, as is breakfast for upgraded room guests. Other amenities include a gym, an indoor pool, a hot tub and a spa, as well as 2 restaurants (1 rooftop Asian) and a lobby bar.
+
+Check-in time: 14:00
+Check-out time: 12:00</string>
+    <string name="veranda">In a restaurant, the menu is a list of food and beverages offered to customers and the prices. A menu may be à la carte – which presents a list of options from which customers choose a table, in which case a pre-established sequence of courses is offered.</string>
+
+</resources>

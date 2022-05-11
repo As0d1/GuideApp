@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_res"
+    tools:context=".RestaurantActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restaurants in Uzbekistan"
+        android:textStyle="bold"
+
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:background="@color/white"
+        android:layout_centerInParent="false"/>
+
+    <Button
+        android:id="@+id/infdowntown"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="70dp"
+        android:text="downtown"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/btnNearMountain"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:layout_below="@id/infdowntown"
+        android:text="near to mountain" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mainmanu"
+        android:layout_below="@id/btnNearMountain"/>
+
+</RelativeLayout>

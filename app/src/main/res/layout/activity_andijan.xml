@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/andija_pic"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Welcome to Andijan Restaurants"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Gumbaza"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="134dp"
+            android:text="@string/gumbaza"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/btnCheckMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Check Out Menu"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Le Veranda"
+            android:textSize="45sp"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="350dp"
+            android:layout_height="187dp"
+            app:srcCompat="@drawable/le_veranda" />
+
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="102dp"
+            android:text="@string/le_verando"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnCheckVerandaMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Check Out Menu"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Gulshan restaurant"
+            android:textSize="45sp"
+            android:textColor="@color/white"
+            android:textStyle="italic"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="337dp"
+            android:layout_height="342dp"
+            android:src="@drawable/gulshan" />
+
+        <TextView
+            android:layout_width="267dp"
+            android:layout_height="103dp"
+            android:text="@string/gulshan"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:textSize="15sp"/>
+        <Button
+            android:id="@+id/btnCheckGulshanMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Check Out Menu"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Uzbekistan Restaurant"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:textStyle="italic"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="329dp"
+            android:layout_height="232dp"
+            android:src="@drawable/ozbekistan_res" />
+
+        <TextView
+            android:layout_width="327dp"
+            android:layout_height="89dp"
+            android:text="@string/ozbekistan"
+            android:textColor="@color/white"
+            android:textStyle="italic" />
+        <Button
+            android:id="@+id/btnCheckUzbekistanMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Check Out Menu"
+            />
+
+        <Button
+            android:id="@+id/btnBookAndijan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reservation"/>
+    </LinearLayout>
+
+</ScrollView>
