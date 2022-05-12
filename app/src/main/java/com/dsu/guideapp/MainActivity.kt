@@ -1,6 +1,7 @@
 package com.dsu.guideapp
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
@@ -11,6 +12,13 @@ class MainActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val videoUri = Uri.parse("android.resource://" + packageName + "/" + R.raw.travel );
+        videoView1.setVideoURI(videoUri);
+        videoView1.start();
+        videoView1.setOnCompletionListener {
+            videoView1.start();
+        }
 
         infButton.setOnClickListener {
             val intent = Intent(this, InfoActivity::class.java)
@@ -29,9 +37,5 @@ class MainActivity: AppCompatActivity() {
             val intent = Intent(this, Transportation::class.java)
             startActivity(intent)
         }
-
-
-
-
     }
 }
