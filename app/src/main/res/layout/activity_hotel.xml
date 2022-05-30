@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:padding="20dp"
     android:layout_height="match_parent"
-    tools:context=".HotelActivity"
-    android:background="@drawable/hotel_back">
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/samarkand_city">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_marginTop="10dp"
-            android:text="Renting house and Hotel"
-            android:textColor="#000"
+            android:layout_gravity="center"
+            android:text="Renting House and Hotel"
+            android:textColor="#ffffff"
             android:textSize="25sp"
             android:textStyle="bold" />
 
@@ -26,11 +22,10 @@
             android:id="@+id/rental"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:background="@drawable/round_corner"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
-            android:orientation="horizontal"
-            android:text="rent a house"
-            tools:ignore="HardcodeText" />
+            android:text="rent a house"/>
 
         <Button
             android:id="@+id/btnHotel"
@@ -38,11 +33,7 @@
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:orientation="vertical"
-            android:text="hotel"
-            tools:ignore="HardcodeText" />
+            android:background="@drawable/round_corner"
+            android:text="Rent a hotel"/>
 
-    </LinearLayout>
-
-
-</RelativeLayout>
+</LinearLayout>

@@ -8,6 +8,8 @@ import android.widget.ArrayAdapter
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_fergana.*
 import kotlinx.android.synthetic.main.activity_jizzakh_restaurant.*
 import kotlinx.android.synthetic.main.activity_jizzakh_restaurant.lybtNnJizzakhnJizzakh
@@ -26,49 +28,28 @@ class FerganaRestaurantActivity : AppCompatActivity() {
                 run {
                     val dlgName: EditText = dialogView.findViewById(R.id.editIsm)
                     val dlgEmail: EditText = dialogView.findViewById(R.id.editEmail)
-                    val dlgXabar: EditText = dialogView.findViewById(R.id.txtXabar)
+                    val dlgPhone: EditText = dialogView.findViewById(R.id.editPhone)
+                    val dlgRest: EditText = dialogView.findViewById(R.id.txtRestaurant)
+                    val dlgDate: EditText = dialogView.findViewById(R.id.txtDate)
+                    val dlgTime: EditText = dialogView.findViewById(R.id.txtTime)
+                    val dlgPeople: EditText = dialogView.findViewById(R.id.txtPeople)
 
-                    val items = listOf(
-                        "Uzbekistan",
-                        "Turkmenistan",
-                        "Kazakhstan",
-                        "Kyrgyzstan",
-                        "Tajikistan",
-                        "Afghanistan"
+                    val city = hashMapOf(
+                        "name" to dlgName.text.toString(),
+                        "email" to dlgEmail.text.toString(),
+                        "phone" to dlgPhone.text.toString(),
+                        "restaurant" to dlgRest.text.toString(),
+                        "date" to dlgDate.text.toString(),
+                        "time" to dlgTime.text.toString(),
+                        "people" to dlgPeople.text.toString()
                     )
-                    val adapter = ArrayAdapter(this, android.R.layout.list_content, items)
-                    txtRestaurant.setAdapter(adapter)
 
-
-                    if (dlgName.text.isNullOrEmpty()) {
-                        val toast = Toast.makeText(this, "Ismingizni kiriting!", Toast.LENGTH_LONG)
-                        toast.setGravity(Gravity.CENTER,0,0)
-                        toast.show()
-                    } else if (dlgEmail.text.isNullOrEmpty()) {
-                        val toast = Toast.makeText(this, "Email addresingizni kiriting!", Toast.LENGTH_LONG)
-                        toast.setGravity(Gravity.CENTER,0,0)
-                        toast.show()
-                    } else if (dlgXabar.text.isNullOrEmpty()) {
-                        val toast = Toast.makeText(this, "Xabaringizni kiriting!", Toast.LENGTH_LONG)
-                        toast.setGravity(Gravity.CENTER,0,0)
-                        toast.show()
-                    } else {
-                        val dlName = dlgName.text.toString()
-                        val dlEmail = dlgEmail.text.toString()
-                        val dlXabar = dlgXabar.text.toString()
-
-//                        val ref = FirebaseDatabase.getInstance().getReference("xabarlar")
-//                        val xabarId = ref.push().key
-//                        val xabar = xabarId?.let { FireXabar(it, dlName, dlEmail, dlXabar, dlRating) }
-//                        if (xabarId != null) {
-//                            ref.child(xabarId).setValue(xabar).addOnCompleteListener {
-//                                Toast.makeText(this, "", Toast.LENGTH_LONG).show()
-//                            }
-//                        }
-                    }
+                    Firebase.firestore.collection("restaurant_bookings").document()
+                        .set(city)
+                        .addOnSuccessListener { Toast.makeText(this, "You have successfully booked a table!", Toast.LENGTH_SHORT).show() }
                 }
             }
-            dlg.setNegativeButton("cancel", null)
+            dlg.setNegativeButton("Cancel", null)
             dlg.show()
         }
     }

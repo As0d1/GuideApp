@@ -5,12 +5,6 @@
     android:padding="10dp"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:justificationMode="inter_word"
-        android:text="Please enter you information" />
-
     <EditText
         android:id="@+id/editIsm"
         android:layout_width="match_parent"
@@ -26,7 +20,7 @@
         android:hint="Email"
         android:layout_marginTop="10dp"/>
     <EditText
-        android:id="@+id/txtXabar"
+        android:id="@+id/editPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textMultiLine"
@@ -59,5 +53,24 @@
         android:inputType="textMultiLine"
         android:hint="People"
         android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/money"
+            android:text="Pay by Cash"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/credit_card"
+            android:text="Pay by Card"/>
+    </LinearLayout>
 
 </LinearLayout>
