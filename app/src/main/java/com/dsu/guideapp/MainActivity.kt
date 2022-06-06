@@ -43,5 +43,19 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             videoView2.visibility = View.INVISIBLE
         }
+
+        videoView2.setOnClickListener {
+            openFunStans()
+        }
+        txtFunstans.setOnClickListener {
+            openFunStans()
+        }
+    }
+
+    private fun openFunStans() {
+        videoView2.visibility = View.INVISIBLE
+        val openURL = Intent(android.content.Intent.ACTION_VIEW)
+        openURL.data = Uri.parse("https://funstans.com/")
+        startActivity(openURL)
     }
 }

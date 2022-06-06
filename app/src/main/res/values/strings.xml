@@ -448,4 +448,13 @@ Check-in time: 14:00
 Check-out time: 12:00</string>
     <string name="veranda">In a restaurant, the menu is a list of food and beverages offered to customers and the prices. A menu may be à la carte – which presents a list of options from which customers choose a table, in which case a pre-established sequence of courses is offered.</string>
 
+    <string name="air_flights">There are two airports in the country located in Tashkent and Samarkand. Domestic flights connect the capital with major cities Samarkand, Karshi, Bukhara, Fergana, Namangan, Urgench, Termez and Nukus.\n\n
+International flights are served by the national Uzbekistan Airways airline that is considered the largest in the region. The airline operates flights to Asia, the Middle East and European countries.  Moreover, it is the only company in Central Asia that provides direct flights from Tashkent to New York.</string>
+    <string name="railway_transport">
+        Railway transport connects only a few cities; Tashkent - Bukhara, Tashkent - Andijan, Tashkent - Urgench, Tashkent - Termez and a new high-speed train to Samarkand (the price is 32000UZS, $ 3.82, including light snack). There are two railway stations in Tashkent, North and South. One peculiarity of trains in Uzbekistan is that you need to take a seat 30 minutes before departure, otherwise you may not be let in.
+    </string>
+    <string name="uz_metro">Metro is available only in Tashkent. In addition, it is the only metro in Central Asia. There are three lines in Tashkent subway; Chilanzar (12 stations), Uzbekistan (11 stations) and Unis-Abad (6 stations). The cars are old, they have not changed since Soviet times, but the metro is quite comfortable with beautiful lobbies. The cost of a token is 1200UZS ($ 0.14).</string>
+    <string name="uz_bus">Public transport operates in all major cities. Intercity transport is also available, connecting the main cities. Buses and minibuses are quite cheap means of transportation. Still, public transport is mostly overcrowded with no air conditioning.
+
+In Tashkent, public transport is more modern and comfortable. Ticket price is 1200UZS ($ 0.14). The route on buses is in Uzbek. If you do not know which particular bus number you need, you can ask the drivers for help. The knowledge of the foreign language is a rare thing in the country. Mostly the older generation speaks Russian.</string>
 </resources>
