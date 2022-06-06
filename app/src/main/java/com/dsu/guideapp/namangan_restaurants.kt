@@ -1,18 +1,14 @@
 package com.dsu.guideapp
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Gravity
 import android.view.View
-import android.widget.ArrayAdapter
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
-import kotlinx.android.synthetic.main.activity_bukhara_restaurant.*
 import kotlinx.android.synthetic.main.activity_namangan_restaurants.*
-import kotlinx.android.synthetic.main.xabar_layout.*
 
 class namangan_restaurants : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -46,7 +42,13 @@ class namangan_restaurants : AppCompatActivity() {
 
                     Firebase.firestore.collection("restaurant_bookings").document()
                         .set(city)
-                        .addOnSuccessListener { Toast.makeText(this, "You have successfully booked a table!", Toast.LENGTH_SHORT).show() }
+                        .addOnSuccessListener {
+                            Toast.makeText(
+                                this,
+                                "You have successfully booked a table!",
+                                Toast.LENGTH_SHORT
+                            ).show()
+                        }
                 }
             }
             dlg.setNegativeButton("Cancel", null)

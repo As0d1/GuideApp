@@ -9,144 +9,154 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:background="@drawable/nam_back">
+        android:background="@drawable/nam_back"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="250dp"
             android:layout_height="match_parent"
-            android:text="Namangan"
             android:layout_gravity="center"
-            android:textSize="25sp"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textStyle="bold"
             android:background="@color/white"
-            />
+            android:text="Namangan"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
         <TextView
+            style="@style/CardView.Dark"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            style="@style/CardView.Dark"
             android:layout_gravity="center"
-            android:text="Flamingo"/>
+            android:text="Flamingo"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="wrap_content"
             android:layout_height="244dp"
             app:srcCompat="@drawable/flamingo" />
+
         <TextView
             android:id="@+id/textView"
             android:layout_width="251dp"
             android:layout_height="117dp"
-            android:text="@string/namangan"
             android:background="@color/white"
+            android:text="@string/namangan"
             android:textColor="@color/black"
-            android:textStyle="bold"
-            />
+            android:textStyle="bold" />
+
         <TextView
+            style="@style/CardView.Dark"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            style="@style/CardView.Dark"
             android:layout_gravity="center"
+            android:background="@color/white"
             android:text="Rim Restaurant"
-            android:background="@color/white"/>
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
         <ImageView
             android:id="@+id/rim"
             android:layout_width="wrap_content"
             android:layout_height="244dp"
             app:srcCompat="@drawable/rim" />
+
         <TextView
 
             android:layout_width="251dp"
             android:layout_height="117dp"
-            android:text="@string/rim_res"
             android:background="@color/white"
+            android:text="@string/rim_res"
             android:textColor="@color/black"
-            android:textStyle="bold"
-            />
+            android:textStyle="bold" />
+
         <TextView
+            style="@style/CardView.Dark"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            style="@style/CardView.Dark"
             android:layout_gravity="center"
+            android:background="@color/white"
             android:text="Sherdor Restaurant"
-            android:background="@color/white"/>
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
         <ImageView
             android:id="@+id/sherdor"
             android:layout_width="wrap_content"
             android:layout_height="244dp"
             app:srcCompat="@drawable/sherdor" />
+
         <TextView
 
             android:layout_width="251dp"
             android:layout_height="117dp"
-            android:text="@string/sherdor"
             android:background="@color/white"
+            android:text="@string/sherdor"
             android:textColor="@color/black"
-            android:textStyle="bold"
-            />
+            android:textStyle="bold" />
+
         <TextView
+            style="@style/CardView.Dark"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            style="@style/CardView.Dark"
             android:layout_gravity="center"
+            android:background="@color/white"
             android:text="shodiyona"
-            android:background="@color/white"/>
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
         <ImageView
             android:id="@+id/shodiyona"
             android:layout_width="wrap_content"
             android:layout_height="244dp"
             app:srcCompat="@drawable/shodiyona" />
+
         <TextView
 
             android:layout_width="251dp"
             android:layout_height="117dp"
-            android:text="@string/shodiyona"
             android:background="@color/white"
+            android:text="@string/shodiyona"
             android:textColor="@color/black"
-            android:textStyle="bold"
-            />
+            android:textStyle="bold" />
+
         <TextView
+            style="@style/CardView.Dark"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            style="@style/CardView.Dark"
             android:layout_gravity="center"
+            android:background="@color/white"
             android:text="Zamin Restaurant"
-            android:background="@color/white"/>
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
         <ImageView
             android:id="@+id/Zamin"
             android:layout_width="wrap_content"
             android:layout_height="244dp"
             app:srcCompat="@drawable/zamin" />
+
         <TextView
 
             android:layout_width="251dp"
             android:layout_height="117dp"
-            android:text="@string/zamin"
             android:background="@color/white"
+            android:text="@string/zamin"
             android:textColor="@color/black"
-            android:textStyle="bold"
-            />
+            android:textStyle="bold" />
+
         <Button
             android:id="@+id/btNnamangan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Reservation"/>
+            android:text="Reservation" />
 
 
     </LinearLayout>

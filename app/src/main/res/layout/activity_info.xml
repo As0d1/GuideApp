@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
     android:fillViewport="true"
     android:orientation="vertical"
-    android:background="@drawable/gradient"
     tools:context=".InfoActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -22,27 +23,30 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="20dp"
-
                 android:layout_marginEnd="10dp"
-                android:layout_weight="1">
+
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/teal_700"
                     android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/cities"/>
+                        android:src="@drawable/cities" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Cities"
                         android:textAlignment="center"
-                        android:textStyle="bold"
-                        android:textSize="18sp"
                         android:textColor="@color/white"
-                        android:text="Cities"/>
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>
@@ -51,29 +55,33 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                app:cardCornerRadius="20dp"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/teal_700"
                     android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/cities"/>
+                        android:src="@drawable/cities" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Holidays"
                         android:textAlignment="center"
-                        android:textStyle="bold"
-                        android:textSize="18sp"
                         android:textColor="@color/white"
-                        android:text="Holidays"/>
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -83,27 +91,30 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="20dp"
-
                 android:layout_marginEnd="10dp"
-                android:layout_weight="1">
+
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/teal_700"
                     android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/cities"/>
+                        android:src="@drawable/cities" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Places for Vacation"
                         android:textAlignment="center"
-                        android:textStyle="bold"
-                        android:textSize="18sp"
                         android:textColor="@color/white"
-                        android:text="Places for Vacation"/>
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>
@@ -112,29 +123,33 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                app:cardCornerRadius="20dp"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/teal_700"
                     android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/cities"/>
+                        android:src="@drawable/cities" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Festivals"
                         android:textAlignment="center"
-                        android:textStyle="bold"
-                        android:textSize="18sp"
                         android:textColor="@color/white"
-                        android:text="Festivals"/>
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -144,27 +159,30 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="20dp"
-
                 android:layout_marginEnd="10dp"
-                android:layout_weight="1">
+
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/teal_700"
                     android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/cities"/>
+                        android:src="@drawable/cities" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Historical Sights"
                         android:textAlignment="center"
-                        android:textStyle="bold"
-                        android:textSize="18sp"
                         android:textColor="@color/white"
-                        android:text="Historical Sights"/>
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>
@@ -173,25 +191,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                app:cardCornerRadius="20dp"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/teal_700"
                     android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/cities"/>
+                        android:src="@drawable/cities" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Mountains"
                         android:textAlignment="center"
-                        android:textStyle="bold"
-                        android:textSize="18sp"
                         android:textColor="@color/white"
-                        android:text="Mountains"/>
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>

@@ -1,7 +1,7 @@
 package com.dsu.guideapp
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 
 class citygrill_menu_page : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

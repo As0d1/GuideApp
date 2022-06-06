@@ -9,4 +9,12 @@
     <color name="white">#FFFFFF</color>
     <color name="shaded">#DDDDDD</color>
 
+    <color name="primaryColor">#2196f3</color>
+    <color name="primaryLightColor">#6ec6ff</color>
+    <color name="primaryDarkColor">#0069c0</color>
+    <color name="secondaryColor">#ce93d8</color>
+    <color name="secondaryLightColor">#ffc4ff</color>
+    <color name="secondaryDarkColor">#9c64a6</color>
+    <color name="primaryTextColor">#ede7f6</color>
+    <color name="secondaryTextColor">#f0f4c3</color>
 </resources>

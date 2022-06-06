@@ -5,31 +5,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".jizzakh_Restaurant">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@drawable/jizzakh_back">
+        android:background="@drawable/jizzakh_back"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="250dp"
             android:layout_height="match_parent"
-            android:text="I am in Jizzakh"
             android:layout_gravity="center"
-            android:textSize="25sp"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textStyle="bold"
             android:background="@color/white"
-            />
+            android:text="I am in Jizzakh"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
         <TextView
             android:layout_width="300dp"
             android:layout_height="match_parent"
-            android:textStyle="bold"
-            android:textAlignment="center"
+            android:background="@color/white"
             android:text="Muxtasham Samsa"
+            android:textAlignment="center"
             android:textSize="25sp"
-            android:background="@color/white"/>
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/imageView4"
@@ -41,90 +42,94 @@
             android:id="@+id/textView"
             android:layout_width="251dp"
             android:layout_height="117dp"
-            android:text="@string/Jizzakh"
             android:background="@color/white"
+            android:text="@string/Jizzakh"
             android:textColor="@color/black"
-            android:textStyle="bold"
-            />
+            android:textStyle="bold" />
+
         <TextView
             android:layout_width="300dp"
             android:layout_height="match_parent"
-            android:textStyle="bold"
-            android:textAlignment="center"
-            android:text="Osiyo restaurant"
-            android:textSize="25sp"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:text="Osiyo restaurant"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
         <ImageView
             android:id="@+id/osiya"
             android:layout_width="wrap_content"
             android:layout_height="244dp"
             app:srcCompat="@drawable/osiyo_restaurant" />
+
         <TextView
             android:id="@+id/asiya"
             android:layout_width="251dp"
             android:layout_height="117dp"
-            android:text="@string/osiyo"
             android:background="@color/white"
+            android:text="@string/osiyo"
             android:textColor="@color/black"
-            android:textStyle="bold"
-            />
+            android:textStyle="bold" />
+
         <TextView
             android:layout_width="300dp"
             android:layout_height="match_parent"
-            android:textStyle="bold"
-            android:textAlignment="center"
-            android:text="White swan Restaurant"
-            android:textSize="25sp"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:text="White swan Restaurant"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
         <ImageView
             android:id="@+id/white_swan"
             android:layout_width="wrap_content"
             android:layout_height="244dp"
             app:srcCompat="@drawable/white_swan" />
+
         <TextView
             android:id="@+id/swan"
             android:layout_width="251dp"
             android:layout_height="117dp"
-            android:text="@string/swan0"
             android:background="@color/white"
+            android:text="@string/swan0"
             android:textColor="@color/black"
-            android:textStyle="bold"
-            />
+            android:textStyle="bold" />
+
         <TextView
             android:layout_width="300dp"
             android:layout_height="match_parent"
-            android:textStyle="bold"
-            android:textAlignment="center"
-            android:text="Pandora Restaurant/Bar"
-            android:textSize="25sp"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:text="Pandora Restaurant/Bar"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
         <ImageView
             android:id="@+id/pandora"
             android:layout_width="wrap_content"
             android:layout_height="244dp"
             app:srcCompat="@drawable/pandora" />
+
         <TextView
             android:id="@+id/pandorra"
             android:layout_width="251dp"
             android:layout_height="117dp"
-            android:text="@string/pandora"
             android:background="@color/white"
+            android:text="@string/pandora"
             android:textColor="@color/black"
-            android:textStyle="bold"
-            />
+            android:textStyle="bold" />
+
         <Button
             android:id="@+id/lybtNnJizzakhnJizzakh"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Reservation"/>
-
+            android:text="Reservation" />
 
 
     </LinearLayout>
-
 
 
 </ScrollView>

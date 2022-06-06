@@ -1,76 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="10dp">
 
     <EditText
         android:id="@+id/editIsm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
         android:layout_marginTop="10dp"
-        android:hint="Name"/>
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
     <EditText
         android:id="@+id/editEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"
         android:hint="Email"
-        android:layout_marginTop="10dp"/>
+        android:inputType="textEmailAddress" />
+
     <EditText
         android:id="@+id/editPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"
         android:hint="Phone"
-        android:layout_marginTop="10dp"/>
+        android:inputType="textMultiLine" />
+
     <AutoCompleteTextView
         android:id="@+id/txtRestaurant"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Choose Restaurant"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:hint="Choose Restaurant" />
+
     <EditText
         android:id="@+id/txtDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"
         android:hint="Date"
-        android:layout_marginTop="10dp"/>
+        android:inputType="textMultiLine" />
+
     <EditText
         android:id="@+id/txtTime"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"
         android:hint="Time"
-        android:layout_marginTop="10dp"/>
+        android:inputType="textMultiLine" />
+
     <EditText
         android:id="@+id/txtPeople"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"
         android:hint="People"
-        android:layout_marginTop="10dp"/>
+        android:inputType="textMultiLine" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:orientation="horizontal">
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:drawableLeft="@drawable/money"
-            android:text="Pay by Cash"/>
+            android:text="Pay by Cash" />
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:drawableLeft="@drawable/credit_card"
-            android:text="Pay by Card"/>
+            android:text="Pay by Card" />
     </LinearLayout>
 
 </LinearLayout>

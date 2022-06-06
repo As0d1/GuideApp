@@ -2,19 +2,16 @@ package com.dsu.guideapp
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.Gravity
 import android.view.View
-import android.widget.*
+import android.widget.EditText
+import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContentProviderCompat.requireContext
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_andijan.*
-import kotlinx.android.synthetic.main.xabar_layout.*
-import softromeda.hadisisharif.FireXabar
 
-class AndijanActivity: AppCompatActivity() {
+class AndijanActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_andijan)
@@ -71,7 +68,13 @@ class AndijanActivity: AppCompatActivity() {
 
                     Firebase.firestore.collection("restaurant_bookings").document()
                         .set(city)
-                        .addOnSuccessListener { Toast.makeText(this, "You have successfully booked a table!", Toast.LENGTH_SHORT).show() }
+                        .addOnSuccessListener {
+                            Toast.makeText(
+                                this,
+                                "You have successfully booked a table!",
+                                Toast.LENGTH_SHORT
+                            ).show()
+                        }
                 }
             }
             dlg.setNegativeButton("Cancel", null)

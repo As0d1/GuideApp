@@ -1,19 +1,17 @@
 package com.dsu.guideapp
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Gravity
 import android.view.View
-import android.widget.ArrayAdapter
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.FirebaseApp
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.about_hotel.view.*
 import kotlinx.android.synthetic.main.activity_hotels_in_uzbekistan.*
-import kotlinx.android.synthetic.main.xabar_layout.*
 
 class Hotels_In_Uzbekistan : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -71,8 +69,7 @@ class Hotels_In_Uzbekistan : AppCompatActivity() {
                             Toast.makeText(this, "Enter number of people.", Toast.LENGTH_LONG)
                         toast.setGravity(Gravity.CENTER, 0, 0)
                         toast.show()
-                    }
-                    else {
+                    } else {
                         val data = hashMapOf(
                             "name" to dlgName.text.toString(),
                             "email" to dlgEmail.text.toString(),
@@ -86,7 +83,11 @@ class Hotels_In_Uzbekistan : AppCompatActivity() {
                         db.collection("hotel_bookings")
                             .add(data)
                             .addOnSuccessListener { documentReference ->
-                                Toast.makeText(this, "You have booked for this hotel successfully!", Toast.LENGTH_SHORT).show()
+                                Toast.makeText(
+                                    this,
+                                    "You have booked for this hotel successfully!",
+                                    Toast.LENGTH_SHORT
+                                ).show()
                             }
 
                     }

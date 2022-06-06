@@ -1,39 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:padding="20dp"
     android:layout_height="match_parent"
+    android:background="@drawable/samarkand_city"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="@drawable/samarkand_city">
+    android:padding="20dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Renting House and Hotel"
-            android:textColor="#ffffff"
-            android:textSize="25sp"
-            android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Renting House and Hotel"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/rental"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:background="@drawable/round_corner"
-            android:layout_gravity="center"
-            android:layout_marginTop="30dp"
-            android:text="rent a house"/>
+    <Button
+        android:id="@+id/rental"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/house"
+        android:text="rent a house"
+        android:textColor="@color/purple_700"
+        app:cornerRadius="15dp" />
 
-        <Button
-            android:id="@+id/btnHotel"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/round_corner"
-            android:text="Rent a hotel"/>
+    <Button
+        android:id="@+id/btnHotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/hotel"
+        android:text="Rent a hotel"
+        android:textColor="@color/purple_700"
+        app:cornerRadius="15dp" />
 
 </LinearLayout>

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Bukhara_restaurant"
-    android:background="@drawable/main_back_bukhara">
+    android:background="@drawable/main_back_bukhara"
+    tools:context=".Bukhara_restaurant">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,21 +14,22 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bukhara Restaurants"
-            android:textColor="@color/black"
-            android:background="@color/white"
-            android:textAlignment="center"
             android:layout_gravity="center"
+            android:background="@color/white"
+            android:text="Bukhara Restaurants"
+            android:textAlignment="center"
+            android:textColor="@color/black"
             android:textSize="35sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
+
         <TextView
             android:layout_width="250dp"
             android:layout_height="match_parent"
+            android:background="@color/white"
             android:text="Doston Restaurant"
             android:textColor="@color/black"
-            android:background="@color/white"
             android:textSize="25sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/doston"
@@ -42,104 +42,113 @@
             android:layout_width="251dp"
             android:layout_height="115dp"
             android:layout_below="@id/doston"
+            android:background="@color/white"
             android:text="@string/bukhara"
-            android:textColor="@color/black"
-            android:background="@color/white"/>
+            android:textColor="@color/black" />
 
         <TextView
             android:layout_width="260dp"
             android:layout_height="match_parent"
             android:layout_gravity="center"
+            android:layout_marginTop="10dp"
             android:background="@color/white"
             android:shadowColor="@color/white"
             android:text="Uygur National foods"
             android:textColor="@color/black"
-            android:layout_marginTop="10dp"
             android:textSize="25sp" />
 
         <ImageView
             android:layout_width="396dp"
             android:layout_height="172dp"
             android:src="@drawable/uygur" />
+
         <TextView
             android:layout_width="251dp"
             android:layout_height="115dp"
-            android:textColor="@color/black"
-            android:textStyle="italic"
+            android:background="@color/white"
             android:text="@string/ugur"
-            android:background="@color/white"/>
+            android:textColor="@color/black"
+            android:textStyle="italic" />
+
         <TextView
             android:layout_width="250dp"
             android:layout_height="match_parent"
-            android:text="Chashma Restaurant"
-            android:textSize="25sp"
-            android:textColor="@color/black"
-            android:textStyle="italic"
+            android:layout_gravity="center"
             android:background="@color/white"
-            android:layout_gravity="center"/>
+            android:text="Chashma Restaurant"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+
         <ImageView
             android:id="@+id/chashma"
             android:layout_width="396dp"
             android:layout_height="172dp"
-            android:src="@drawable/chashma"/>
+            android:src="@drawable/chashma" />
+
         <TextView
 
             android:layout_width="251dp"
             android:layout_height="115dp"
             android:layout_below="@id/doston"
+            android:background="@color/white"
             android:text="@string/chashma"
-            android:textColor="@color/black"
-            android:background="@color/white"/>
+            android:textColor="@color/black" />
+
         <TextView
             android:layout_width="250dp"
             android:layout_height="match_parent"
-            android:textSize="25sp"
-            android:text="Welcome to Chinar "
-            android:textStyle="italic"
-            android:textColor="@color/black"
+            android:layout_gravity="center"
             android:background="@color/white"
-            android:layout_gravity="center"/>
+            android:text="Welcome to Chinar "
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+
         <ImageView
+            android:id="@+id/chinar"
             android:layout_width="396dp"
             android:layout_height="172dp"
-            android:id="@+id/chinar"
-            android:src="@drawable/chinar_res"/>
+            android:src="@drawable/chinar_res" />
+
         <TextView
             android:layout_width="251dp"
             android:layout_height="117dp"
+            android:background="@color/white"
             android:text="@string/chinar"
             android:textColor="@color/black"
-            android:textStyle="normal"
-            android:background="@color/white"
-            />
+            android:textStyle="normal" />
+
         <TextView
             android:layout_width="300dp"
             android:layout_height="match_parent"
-            android:textSize="25sp"
-            android:text="Bella Italia italian restaurant"
-            android:textStyle="italic"
-            android:textColor="@color/black"
+            android:layout_gravity="center"
             android:background="@color/white"
-            android:layout_gravity="center"/>
+            android:text="Bella Italia italian restaurant"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+
         <ImageView
+            android:id="@+id/bella_pizza"
             android:layout_width="396dp"
             android:layout_height="172dp"
-            android:src="@drawable/bella_italia"
-            android:id="@+id/bella_pizza"/>
+            android:src="@drawable/bella_italia" />
+
         <TextView
             android:layout_width="251dp"
             android:layout_height="117dp"
+            android:background="@color/white"
             android:text="@string/bella"
             android:textColor="@color/black"
-            android:textStyle="normal"
-            android:background="@color/white"/>
+            android:textStyle="normal" />
 
 
         <Button
             android:id="@+id/btnBookBukhara"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Reservation"/>
+            android:text="Reservation" />
     </LinearLayout>
 
 </ScrollView>
