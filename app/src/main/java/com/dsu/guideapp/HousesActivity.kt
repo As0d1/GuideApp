@@ -1,39 +1,45 @@
 package com.dsu.guideapp
 
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Gravity
 import android.view.View
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.FirebaseApp
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.about_hotel.view.*
-import kotlinx.android.synthetic.main.activity_hotels_in_uzbekistan.*
+import kotlinx.android.synthetic.main.activity_houses.*
 
-class Hotels_In_Uzbekistan : AppCompatActivity() {
+class HousesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_hotels_in_uzbekistan)
+        setContentView(R.layout.activity_houses)
 
-        imgBtnAboutHotel.setOnClickListener {
+        imgBtnAboutHouse1.setOnClickListener {
             bookHotel()
         }
-        imgBtnAboutHotel2.setOnClickListener {
+        imgBtnAboutHouse2.setOnClickListener {
+            bookHotel()
+        }
+        imgBtnAboutHouse3.setOnClickListener {
+            bookHotel()
+        }
+        imgBtnAboutHouse4.setOnClickListener {
             bookHotel()
         }
     }
 
     private fun bookHotel() {
-        val dialogView: View = View.inflate(this, R.layout.about_hotel, null)
+        val dialogView: View = View.inflate(this, R.layout.about_house, null)
         val dlg = AlertDialog.Builder(this)
 
         dialogView.btnReserveHotel.setOnClickListener {
             val dialogView: View = View.inflate(this, R.layout.reserve_hotel_form, null)
             val dlg = AlertDialog.Builder(this)
-            dlg.setTitle("Book a hotel")
+            dlg.setTitle("Book a House")
             dlg.setView(dialogView)
             dlg.setPositiveButton("Book") { dialog, which ->
                 run {
@@ -80,12 +86,12 @@ class Hotels_In_Uzbekistan : AppCompatActivity() {
                         )
                         FirebaseApp.initializeApp(this);
                         val db = Firebase.firestore
-                        db.collection("hotel_bookings")
+                        db.collection("house_bookings")
                             .add(data)
                             .addOnSuccessListener { documentReference ->
                                 Toast.makeText(
                                     this,
-                                    "You have booked for this hotel successfully!",
+                                    "You have booked for this house successfully!",
                                     Toast.LENGTH_SHORT
                                 ).show()
                             }
@@ -97,7 +103,7 @@ class Hotels_In_Uzbekistan : AppCompatActivity() {
             dlg.show()
         }
 
-        dlg.setTitle("About Hotel")
+        dlg.setTitle("About House")
         dlg.setView(dialogView)
         dlg.setPositiveButton("Book") { dialog, which ->
         }
