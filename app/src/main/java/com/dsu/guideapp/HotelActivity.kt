@@ -10,6 +10,11 @@ class HotelActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_hotel)
 
+
+        btnHouse.setOnClickListener {
+            startActivity(Intent(this, HousesActivity::class.java))
+        }
+
         btnHotel.setOnClickListener {
             startActivity(Intent(this, Hotels_In_Uzbekistan::class.java))
         }

@@ -59,4 +59,27 @@
         android:hint="People"
         android:inputType="textMultiLine" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/money"
+            android:text="Pay by Cash" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/credit_card"
+            android:text="Pay by Card" />
+    </LinearLayout>
+
 </LinearLayout>
