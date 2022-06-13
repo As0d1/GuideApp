@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".restauranrtnearmountain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgr"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:text="Restaurants near mountain"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:text="Archazor Restaurant"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/pub"
+            android:layout_width="wrap_content"
+            android:layout_height="244dp"
+            app:srcCompat="@drawable/archazar" />
+
+        <TextView
+            android:id="@+id/pub1"
+            android:layout_width="251dp"
+            android:layout_height="117dp"
+            android:background="@color/white"
+            android:text="@string/archazor"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:text="Cinara's"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="244dp"
+            app:srcCompat="@drawable/chinar" />
+
+        <TextView
+
+            android:layout_width="251dp"
+            android:layout_height="117dp"
+            android:background="@color/white"
+            android:text="@string/chinaer"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:text="Faravon"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="244dp"
+            app:srcCompat="@drawable/faravan" />
+
+        <TextView
+
+            android:layout_width="251dp"
+            android:layout_height="117dp"
+            android:background="@color/white"
+            android:text="@string/faravan"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:text="Osh Markazi"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="244dp"
+            app:srcCompat="@drawable/osh" />
+
+        <TextView
+
+            android:layout_width="251dp"
+            android:layout_height="117dp"
+            android:background="@color/white"
+            android:text="@string/osh"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:text="chaykhana SHedevr"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="244dp"
+            app:srcCompat="@drawable/chaykhana" />
+
+        <TextView
+
+            android:layout_width="251dp"
+            android:layout_height="117dp"
+            android:background="@color/white"
+            android:text="@string/chaykhana"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/lybtNnFerganaaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reservation" />
+
+    </LinearLayout>
+
+</ScrollView>

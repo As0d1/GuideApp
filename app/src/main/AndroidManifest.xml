@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GuideApp">
         <activity
+            android:name=".restauranrtnearmountain"
+            android:exported="false" />
+        <activity
+            android:name=".historical_places"
+            android:exported="false" />
+        <activity
+            android:name=".mountains"
+            android:exported="false" />
+        <activity
+            android:name=".Boysun_bahori_festival"
+            android:exported="false" />
+        <activity
             android:name=".HousesActivity"
             android:exported="false" />
         <activity android:name=".verando_menu" />
