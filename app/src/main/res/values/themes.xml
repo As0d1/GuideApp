@@ -2,6 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.GuideApp" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Primary brand color. -->
+        <item name="aboutStyle">@style/Widget.App.AboutPage</item>
         <item name="colorPrimary">@color/primaryColor</item>
         <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
         <item name="colorOnPrimary">@color/white</item>
@@ -13,4 +14,22 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <!-- Define a global style for AboutPage in your 'styles.xml' -->
+    <style name="Widget.App.AboutPage" parent="about_About">
+        <item name="aboutBackground">#ffffff</item>
+        <item name="aboutElementIconTint">#333333</item>
+        <item name="aboutSeparatorColor">#999999</item>
+        <item name="aboutDescriptionTextAppearance">
+            @style/TextAppearance.App.AboutPage.Description
+        </item>
+
+        <!-- similarly, you can also apply the following text appearances -->
+        <item name="aboutElementTextAppearance">@style/about_elementTextAppearance.Dark</item>
+        <item name="aboutGroupTextAppearance">@style/about_groupTextAppearance</item>
+    </style>
+
+    <style name="TextAppearance.App.AboutPage.Description" parent="about_descriptionTextAppearance.Dark">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
 </resources>

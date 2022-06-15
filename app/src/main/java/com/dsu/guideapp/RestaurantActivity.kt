@@ -10,8 +10,14 @@ class RestaurantActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_restaurant)
 
+        title = "Restaurants"
+
         infdowntown.setOnClickListener {
             val intent = Intent(this, DowntownRestaurant::class.java)
+            startActivity(intent)
+        }
+        btnNearMountain.setOnClickListener {
+            val intent = Intent(this, restauranrtnearmountain::class.java)
             startActivity(intent)
         }
     }

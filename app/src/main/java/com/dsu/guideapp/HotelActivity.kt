@@ -10,6 +10,7 @@ class HotelActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_hotel)
 
+        title = "Hotel & House Rental"
 
         btnHouse.setOnClickListener {
             startActivity(Intent(this, HousesActivity::class.java))

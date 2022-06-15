@@ -81,7 +81,6 @@
             android:textStyle="italic" />
 
         <ImageView
-            android:id="@+id/chashma"
             android:layout_width="396dp"
             android:layout_height="172dp"
             android:src="@drawable/chashma" />
@@ -106,7 +105,6 @@
             android:textStyle="italic" />
 
         <ImageView
-            android:id="@+id/chinar"
             android:layout_width="396dp"
             android:layout_height="172dp"
             android:src="@drawable/chinar_res" />
@@ -130,7 +128,6 @@
             android:textStyle="italic" />
 
         <ImageView
-            android:id="@+id/bella_pizza"
             android:layout_width="396dp"
             android:layout_height="172dp"
             android:src="@drawable/bella_italia" />

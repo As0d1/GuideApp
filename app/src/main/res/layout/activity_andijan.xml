@@ -50,7 +50,6 @@
             android:textStyle="italic" />
 
         <ImageView
-            android:id="@+id/imageView3"
             android:layout_width="350dp"
             android:layout_height="187dp"
             app:srcCompat="@drawable/le_veranda" />
@@ -76,7 +75,6 @@
             android:textStyle="italic" />
 
         <ImageView
-            android:id="@+id/imageView2"
             android:layout_width="337dp"
             android:layout_height="342dp"
             android:src="@drawable/gulshan" />
@@ -104,7 +102,6 @@
             android:textStyle="italic" />
 
         <ImageView
-            android:id="@+id/imageView"
             android:layout_width="329dp"
             android:layout_height="232dp"
             android:src="@drawable/ozbekistan_res" />

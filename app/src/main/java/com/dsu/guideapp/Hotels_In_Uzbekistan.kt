@@ -24,6 +24,12 @@ class Hotels_In_Uzbekistan : AppCompatActivity() {
         imgBtnAboutHotel2.setOnClickListener {
             bookHotel()
         }
+        imgBtnAboutHotel3.setOnClickListener {
+            bookHotel()
+        }
+        imgBtnAboutHotel4.setOnClickListener {
+            bookHotel()
+        }
     }
 
     private fun bookHotel() {
@@ -99,7 +105,7 @@ class Hotels_In_Uzbekistan : AppCompatActivity() {
 
         dlg.setTitle("About Hotel")
         dlg.setView(dialogView)
-        dlg.setPositiveButton("Book") { dialog, which ->
+        dlg.setPositiveButton("OK") { dialog, which ->
         }
         dlg.show()
     }

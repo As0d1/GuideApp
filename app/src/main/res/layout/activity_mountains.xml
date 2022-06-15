@@ -20,6 +20,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="230dp"
                 android:src="@drawable/chimgan" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -27,16 +28,19 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:textSize="15sp"
-                android:text="@string/chimgan" />
+                android:text="@string/chimgan"
+                android:textSize="15sp" />
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="230dp"
                 android:src="@drawable/sultan" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -44,16 +48,19 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:textSize="15sp"
-                android:text="@string/sultan" />
+                android:text="@string/sultan"
+                android:textSize="15sp" />
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="230dp"
                 android:src="@drawable/adelung" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -61,16 +68,19 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:textSize="15sp"
-                android:text="@string/adelung" />
+                android:text="@string/adelung"
+                android:textSize="15sp" />
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="230dp"
                 android:src="@drawable/urgan" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -78,12 +88,13 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:textSize="15sp"
-                android:text="@string/urgan_too" />
+                android:text="@string/urgan_too"
+                android:textSize="15sp" />
 
 
         </LinearLayout>

@@ -10,6 +10,8 @@ class DowntownRestaurant : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_downtown_restaurant)
 
+        title = "Downtown Restaurants"
+
         lyAndijan.setOnClickListener {
             val intent = Intent(this, AndijanActivity::class.java)
             startActivity(intent)

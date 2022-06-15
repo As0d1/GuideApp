@@ -20,6 +20,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="230dp"
                 android:src="@drawable/boysun" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -27,16 +28,19 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:textSize="15sp"
-                android:text="@string/baysun" />
+                android:text="@string/baysun"
+                android:textSize="15sp" />
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="230dp"
                 android:src="@drawable/navruz" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -44,12 +48,13 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:textSize="15sp"
-                android:text="@string/Navroz" />
+                android:text="@string/Navroz"
+                android:textSize="15sp" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -63,16 +68,19 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:textSize="15sp"
-                android:text="@string/may9" />
+                android:text="@string/may9"
+                android:textSize="15sp" />
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="230dp"
                 android:src="@drawable/march" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -80,12 +88,13 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:textSize="15sp"
-                android:text="@string/march8" />
+                android:text="@string/march8"
+                android:textSize="15sp" />
 
 
         </LinearLayout>

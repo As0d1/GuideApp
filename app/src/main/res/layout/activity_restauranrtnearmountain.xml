@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     tools:context=".restauranrtnearmountain">
 
     <LinearLayout
@@ -34,13 +34,11 @@
             android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/pub"
             android:layout_width="wrap_content"
             android:layout_height="244dp"
             app:srcCompat="@drawable/archazar" />
 
         <TextView
-            android:id="@+id/pub1"
             android:layout_width="251dp"
             android:layout_height="117dp"
             android:background="@color/white"
@@ -146,7 +144,7 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/lybtNnFerganaaa"
+            android:id="@+id/btnMountainRestaurantBook"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Reservation" />

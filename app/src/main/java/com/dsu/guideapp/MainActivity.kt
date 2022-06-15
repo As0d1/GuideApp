@@ -3,6 +3,9 @@ package com.dsu.guideapp
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuInflater
+import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
@@ -47,8 +50,23 @@ class MainActivity : AppCompatActivity() {
         videoView2.setOnClickListener {
             openFunStans()
         }
-        txtFunstans.setOnClickListener {
-            openFunStans()
+
+
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        val inflater: MenuInflater = menuInflater
+        inflater.inflate(R.menu.main_menu, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            R.id.action_about -> {
+                startActivity(Intent(this, AboutApp::class.java))
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
         }
     }
 

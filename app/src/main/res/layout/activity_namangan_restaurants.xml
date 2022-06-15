@@ -34,13 +34,11 @@
             android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/imageView4"
             android:layout_width="wrap_content"
             android:layout_height="244dp"
             app:srcCompat="@drawable/flamingo" />
 
         <TextView
-            android:id="@+id/textView"
             android:layout_width="251dp"
             android:layout_height="117dp"
             android:background="@color/white"
@@ -60,7 +58,6 @@
             android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/rim"
             android:layout_width="wrap_content"
             android:layout_height="244dp"
             app:srcCompat="@drawable/rim" />
@@ -86,7 +83,6 @@
             android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/sherdor"
             android:layout_width="wrap_content"
             android:layout_height="244dp"
             app:srcCompat="@drawable/sherdor" />
@@ -112,7 +108,6 @@
             android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/shodiyona"
             android:layout_width="wrap_content"
             android:layout_height="244dp"
             app:srcCompat="@drawable/shodiyona" />
@@ -138,7 +133,6 @@
             android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/Zamin"
             android:layout_width="wrap_content"
             android:layout_height="244dp"
             app:srcCompat="@drawable/zamin" />

@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GuideApp">
         <activity
+            android:name=".AboutApp"
+            android:exported="false" />
+        <activity
             android:name=".restauranrtnearmountain"
             android:exported="false" />
         <activity

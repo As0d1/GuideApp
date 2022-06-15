@@ -1,12 +1,12 @@
 package com.dsu.guideapp
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Gravity
 import android.view.View
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.FirebaseApp
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
@@ -17,6 +17,8 @@ class HousesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_houses)
+
+        title = "Rent a House"
 
         imgBtnAboutHouse1.setOnClickListener {
             bookHotel()
@@ -105,7 +107,7 @@ class HousesActivity : AppCompatActivity() {
 
         dlg.setTitle("About House")
         dlg.setView(dialogView)
-        dlg.setPositiveButton("Book") { dialog, which ->
+        dlg.setPositiveButton("OK") { dialog, which ->
         }
         dlg.show()
     }

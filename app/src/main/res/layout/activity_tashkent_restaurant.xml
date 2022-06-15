@@ -34,13 +34,11 @@
             android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/imageView4"
             android:layout_width="wrap_content"
             android:layout_height="244dp"
             app:srcCompat="@drawable/city_grill" />
 
         <TextView
-            android:id="@+id/textView"
             android:layout_width="251dp"
             android:layout_height="117dp"
             android:background="@color/white"

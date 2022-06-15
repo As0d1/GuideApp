@@ -31,13 +31,13 @@
             app:cardCornerRadius="20dp">
 
             <LinearLayout
+                android:id="@+id/imgBtnAboutHotel"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/purple_200"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/imgBtnAboutHotel"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/mainhotelact" />
@@ -64,13 +64,13 @@
             app:cardCornerRadius="20dp">
 
             <LinearLayout
+                android:id="@+id/imgBtnAboutHotel2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/purple_200"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/imgBtnAboutHotel2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/regency" />
@@ -97,13 +97,13 @@
             app:cardCornerRadius="20dp">
 
             <LinearLayout
+                android:id="@+id/imgBtnAboutHotel3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/purple_200"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/imgBtnAboutHotel3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/hilton_1" />
@@ -130,13 +130,13 @@
             app:cardCornerRadius="20dp">
 
             <LinearLayout
+                android:id="@+id/imgBtnAboutHotel4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/purple_200"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/imgBtnAboutHotel_4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/darhan_main" />

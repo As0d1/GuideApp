@@ -59,6 +59,7 @@
                 app:cardCornerRadius="20dp">
 
                 <LinearLayout
+                    android:id="@+id/cvHolidays"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/teal_700"
@@ -66,7 +67,7 @@
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="150dp"
                         android:src="@drawable/holiday" />
 
                     <TextView
@@ -122,36 +123,13 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_weight="1"
-                app:cardCornerRadius="20dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/teal_700"
-                    android:orientation="horizontal">
-
-                </LinearLayout>
-
-            </com.google.android.material.card.MaterialCardView>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:orientation="horizontal">
-
-            <com.google.android.material.card.MaterialCardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:layout_marginEnd="10dp"
 
                 android:layout_weight="1"
                 app:cardCornerRadius="20dp">
 
                 <LinearLayout
+                    android:id="@+id/cvHistorical"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/teal_700"
@@ -159,7 +137,7 @@
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="150dp"
                         android:src="@drawable/history" />
 
                     <TextView
@@ -174,22 +152,32 @@
 
             </com.google.android.material.card.MaterialCardView>
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_weight="1"
                 app:cardCornerRadius="20dp">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:id="@+id/cvMountains"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:background="@color/teal_700"
                     android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="150dp"
                         android:src="@drawable/mountain" />
 
                     <TextView
