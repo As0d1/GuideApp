@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GuideApp">
         <activity
+            android:name=".HotelInCities"
+            android:exported="false" />
+        <activity
+            android:name=".HouseInCities"
+            android:exported="false" />
+        <activity
             android:name=".AboutApp"
             android:exported="false" />
         <activity

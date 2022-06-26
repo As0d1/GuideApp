@@ -13,11 +13,11 @@ class HotelActivity : AppCompatActivity() {
         title = "Hotel & House Rental"
 
         btnHouse.setOnClickListener {
-            startActivity(Intent(this, HousesActivity::class.java))
+            startActivity(Intent(this, HouseInCities::class.java))
         }
 
         btnHotel.setOnClickListener {
-            startActivity(Intent(this, Hotels_In_Uzbekistan::class.java))
+            startActivity(Intent(this, HotelInCities::class.java))
         }
 
     }
