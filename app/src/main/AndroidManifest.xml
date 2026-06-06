@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GuideApp">
         <activity
+<<<<<<< Updated upstream
             android:name=".HotelInCities"
             android:exported="false" />
         <activity
@@ -19,6 +20,18 @@
             android:exported="false" />
         <activity
             android:name=".AboutApp"
+=======
+            android:name=".samarkand_hotels"
+            android:exported="false" />
+        <activity
+            android:name=".hotels_in_tashkent"
+            android:exported="false" />
+        <activity
+            android:name=".samarkand_hotel"
+            android:exported="false" />
+        <activity
+            android:name=".hotel"
+>>>>>>> Stashed changes
             android:exported="false" />
         <activity
             android:name=".restauranrtnearmountain"
