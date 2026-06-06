@@ -1,7 +1,7 @@
 package com.dsu.guideapp
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_check_menu.*
 
 class verando_menu : AppCompatActivity() {

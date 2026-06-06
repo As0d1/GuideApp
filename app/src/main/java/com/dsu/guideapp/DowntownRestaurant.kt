@@ -1,16 +1,14 @@
 package com.dsu.guideapp
 
 import android.content.Intent
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_downtown_restaurant.*
 
 class DowntownRestaurant : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_downtown_restaurant)
-
-        title = "Downtown Restaurants"
 
         lyAndijan.setOnClickListener {
             val intent = Intent(this, AndijanActivity::class.java)

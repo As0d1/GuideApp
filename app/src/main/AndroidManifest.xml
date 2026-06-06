@@ -11,44 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher3_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GuideApp">
-        <activity
-<<<<<<< Updated upstream
-            android:name=".HotelInCities"
-            android:exported="false" />
-        <activity
-            android:name=".HouseInCities"
-            android:exported="false" />
-        <activity
-            android:name=".AboutApp"
-=======
-            android:name=".samarkand_hotels"
-            android:exported="false" />
-        <activity
-            android:name=".hotels_in_tashkent"
-            android:exported="false" />
-        <activity
-            android:name=".samarkand_hotel"
-            android:exported="false" />
-        <activity
-            android:name=".hotel"
->>>>>>> Stashed changes
-            android:exported="false" />
-        <activity
-            android:name=".restauranrtnearmountain"
-            android:exported="false" />
-        <activity
-            android:name=".historical_places"
-            android:exported="false" />
-        <activity
-            android:name=".mountains"
-            android:exported="false" />
-        <activity
-            android:name=".Boysun_bahori_festival"
-            android:exported="false" />
-        <activity
-            android:name=".HousesActivity"
-            android:exported="false" />
-        <activity android:name=".verando_menu" />
+        <activity android:name=".verando_menu"></activity>
         <activity android:name=".CheckMenu" />
         <activity android:name=".Darhan_hotel" />
         <activity android:name=".about_hilton" />
@@ -78,10 +41,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

@@ -1,100 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/primaryLightColor"
     android:orientation="vertical"
-    tools:context=".Transportation">
+    android:layout_height="match_parent"
+    tools:context=".Transportation"
+    android:background="@drawable/public_transport">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="230dp"
-                android:src="@drawable/uzbekistan_airways" />
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Air flights"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textSize="25sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:text="@string/air_flights"
-                android:textSize="15sp" />
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="230dp"
-                android:src="@drawable/uz_train" />
-
+                android:text="Transportation"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:gravity="center"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Railway"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textSize="25sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:text="@string/railway_transport"
-                android:textSize="15sp" />
+                android:text="Available train in Uzbekistan"
+                android:textColor="@color/black"
+                android:textSize="25sp"/>
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="230dp"
-                android:src="@drawable/uz_metro" />
-
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/train" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Underground Metro"
-                android:textAlignment="center"
+                android:text="Available airplane"
+                android:textSize="25sp"
                 android:textColor="@color/white"
-                android:textSize="25sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:text="@string/uz_metro"
-                android:textSize="15sp" />
-
+                android:textStyle="bold"
+                android:gravity="center"/>
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="230dp"
-                android:src="@drawable/uz_bus" />
-
+                android:layout_height="250dp"
+                android:src="@drawable/schedule"
+                />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Public Buses"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textSize="25sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:text="@string/uz_bus"
-                android:textSize="15sp" />
+                android:text="Taxi"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
 
 
         </LinearLayout>

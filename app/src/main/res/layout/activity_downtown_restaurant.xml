@@ -11,19 +11,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/samarkhand"
-        android:orientation="vertical">
-
+        android:orientation="vertical"
+        android:background="@drawable/samarkhand">
         <TextView
+            android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="@color/white"
             android:text="which city are you in?"
             android:textColor="@color/black"
+            android:background="@color/white"
             android:textSize="25sp"
             android:textStyle="italic" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -33,11 +31,10 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+
                 android:layout_marginEnd="10dp"
-
-                android:layout_weight="1"
-                app:cardCornerRadius="20dp">
-
+                android:layout_weight="1">
                 <LinearLayout
                     android:id="@+id/welTahskent"
                     android:layout_width="match_parent"
@@ -49,15 +46,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="149dp"
                         android:src="@drawable/taash" />
-
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Tashkent"
                         android:textAlignment="center"
-                        android:textColor="@color/white"
+                        android:textStyle="bold"
                         android:textSize="18sp"
-                        android:textStyle="bold" />
+                        android:textColor="@color/white"
+                        android:text="Tashkent"/>
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>
@@ -66,8 +62,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_weight="1"
-                app:cardCornerRadius="20dp">
+                app:cardCornerRadius="20dp"
+                android:layout_weight="1">
 
                 <LinearLayout
 
@@ -93,7 +89,6 @@
 
             </com.google.android.material.card.MaterialCardView>
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -103,11 +98,10 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+
                 android:layout_marginEnd="10dp"
-
-                android:layout_weight="1"
-                app:cardCornerRadius="20dp">
-
+                android:layout_weight="1">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -135,34 +129,30 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_weight="1"
-                app:cardCornerRadius="20dp">
-
+                app:cardCornerRadius="20dp"
+                android:layout_weight="1">
                 <LinearLayout
                     android:id="@+id/lyBukhara"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/purple_500"
                     android:orientation="vertical">
-
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="149dp"
-                        android:src="@drawable/bukhara_ci" />
-
+                        android:src="@drawable/bukhara_ci"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Bukhara"
                         android:textAlignment="center"
-                        android:textColor="@color/white"
+                        android:textStyle="bold"
                         android:textSize="18sp"
-                        android:textStyle="bold" />
+                        android:textColor="@color/white"
+                        android:text="Bukhara"/>
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -172,10 +162,10 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="20dp"
 
-                android:layout_weight="1"
-                app:cardCornerRadius="20dp">
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1">
 
                 <LinearLayout
                     android:id="@+id/greedNamangan"
@@ -205,34 +195,30 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_weight="1"
-                app:cardCornerRadius="20dp">
-
+                app:cardCornerRadius="20dp"
+                android:layout_weight="1">
                 <LinearLayout
                     android:id="@+id/lyFergana"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/purple_500"
                     android:orientation="vertical">
-
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="149dp"
-                        android:src="@drawable/fergana_pic" />
-
+                        android:src="@drawable/fergana_pic"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Fergana"
                         android:textAlignment="center"
-                        android:textColor="@color/white"
+                        android:textStyle="bold"
                         android:textSize="18sp"
-                        android:textStyle="bold" />
+                        android:textColor="@color/white"
+                        android:text="Fergana"/>
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -242,31 +228,28 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+
                 android:layout_marginEnd="10dp"
-
-                android:layout_weight="1"
-                app:cardCornerRadius="20dp">
-
+                android:layout_weight="1">
                 <LinearLayout
                     android:id="@+id/lyAndijan"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/purple_500"
                     android:orientation="vertical">
-
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="149dp"
-                        android:src="@drawable/andijan_city" />
-
+                        android:src="@drawable/andijan_city"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Andijan"
                         android:textAlignment="center"
-                        android:textColor="@color/white"
+                        android:textStyle="bold"
                         android:textSize="18sp"
-                        android:textStyle="bold" />
+                        android:textColor="@color/white"
+                        android:text="Andijan"/>
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>
@@ -275,29 +258,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_weight="1"
-                app:cardCornerRadius="20dp">
-
+                app:cardCornerRadius="20dp"
+                android:layout_weight="1">
                 <LinearLayout
                     android:id="@+id/lyJizzakh"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/purple_500"
                     android:orientation="vertical">
-
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="149dp"
-                        android:src="@drawable/jizzakh_city" />
-
+                        android:src="@drawable/jizzakh_city"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Jizzakh"
                         android:textAlignment="center"
-                        android:textColor="@color/white"
+                        android:textStyle="bold"
                         android:textSize="18sp"
-                        android:textStyle="bold" />
+                        android:textColor="@color/white"
+                        android:text="Jizzakh"/>
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>

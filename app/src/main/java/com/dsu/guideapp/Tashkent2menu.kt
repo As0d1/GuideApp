@@ -1,7 +1,7 @@
 package com.dsu.guideapp
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
 
 class Tashkent2menu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
